@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Privacy Policy — Interviste Impossibili Scheduler</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:700px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}h1{font-size:1.6em}</style>
+</head>
+<body>
+<h1>Privacy Policy — Interviste Impossibili Scheduler</h1>
+<p><em>Last updated: 2026-06-16</em></p>
+
+<p>This is an internal tool built and operated by the creator of the
+"Interviste Impossibili" project to automate publishing of already-approved
+video content to the project's own social media accounts (Instagram,
+Facebook, TikTok).</p>
+
+<h2>What this app does</h2>
+<p>The app uses the TikTok Content Posting API (and equivalent APIs on other
+platforms) solely to publish video content — created and approved in advance
+by the project owner — to the project's own TikTok account, on a schedule.</p>
+
+<h2>Data we access</h2>
+<p>The only TikTok account data accessed is the OAuth access token issued by
+TikTok to authorize posting on behalf of the project's own TikTok account. We
+do not access, collect, or store any data belonging to other TikTok users,
+viewers, or third parties.</p>
+
+<h2>Data storage</h2>
+<p>The access token is stored as an encrypted secret inside GitHub Actions (a
+private CI/CD environment) and is never exposed publicly or shared with third
+parties. Video files are stored temporarily in a private Cloudflare R2 bucket
+solely so they can be fetched by TikTok at publish time, and are deleted
+afterwards.</p>
+
+<h2>Data sharing</h2>
+<p>We do not sell, share, or otherwise disclose any data to third parties.</p>
+
+<h2>Contact</h2>
+<p>For questions about this policy, contact: chiara.daronche@gmail.com</p>
+</body>
+</html>
